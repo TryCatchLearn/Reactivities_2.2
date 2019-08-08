@@ -6,8 +6,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.4"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.2.4"/>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="2.2.4"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.2.4"/>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.0"/>
   </ItemGroup>
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 </Project>
