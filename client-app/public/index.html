@@ -3,10 +3,6 @@
   <head>
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <!--
@@ -26,11 +22,15 @@
     <title>Reactivities</title>
   </head>
   <body>
+    <style>
+      .active-spinner {
+        display: flex !important
+      }  
+    </style>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">
       <div
-        class="ui active transition visible inverted dimmer"
-        style="display: flex !important;"
+        class="ui active transition visible inverted dimmer active-spinner"
       >
         <div class="content">
           <div class="ui text loader">Loading app...</div>
