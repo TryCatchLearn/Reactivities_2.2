@@ -1,0 +1,20 @@
+Hi Neil,
+
+Please consider my proposal if it can match your interest, otherwise just delete this pull request and all should be fine :)
+
+I would like to merge DatingApp v8 with Reactivities to get a clean architecture with Angular,
+
+As mutual benefit you can assist me in the process and I can send "pull requests" of the resulting code. 
+
+
+My proposals for enhancement:
+
+Since I had tried Bootstrap and Material Design, I suggest to use Angular Material this time.
+
+Also in a later time, maybe a dedicated Authorization/Identity project should be integrated in the clean architecture,
+
+Here is an implementation sample:
+
+https://fullstackmark.com/post/21/user-authentication-and-identity-with-angular-aspnet-core-and-identityserver
+
+https://github.com/mmacneil/AngularASPNETCoreOAuth/tree/master/src
