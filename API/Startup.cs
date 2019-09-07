@@ -69,7 +69,7 @@ namespace API
                         .AllowAnyHeader()
                         .AllowAnyMethod()
                         .WithExposedHeaders("WWW-Authenticate")
-                        .WithOrigins("http://localhost:3000")
+                        .WithOrigins("https://localhost:3000")
                         .AllowCredentials();
                 });
             });
@@ -130,8 +130,10 @@ namespace API
             services.AddScoped<IJwtGenerator, JwtGenerator>();
             services.AddScoped<IUserAccessor, UserAccessor>();
             services.AddScoped<IPhotoAccessor, PhotoAccessor>();
+            services.AddScoped<IFacebookAccessor, FacebookAccessor>();
             services.AddScoped<IProfileReader, ProfileReader>();
             services.Configure<CloudinarySettings>(Configuration.GetSection("Cloudinary"));
+            services.Configure<FacebookAppSettings>(Configuration.GetSection("Authentication:Facebook"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
