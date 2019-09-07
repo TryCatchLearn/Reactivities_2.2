@@ -6,3 +6,4 @@ wwwroot
 publish
 settings.json
 appsettings.json
+.idea
