@@ -25,7 +25,7 @@ export default class ActivityStore {
     )
   }
 
-  @observable activityRegistry = new Map();
+  @observable activityRegistry = new Map<string, IActivity>();
   @observable activity: IActivity | null = null;
   @observable loadingInitial = false;
   @observable submitting = false;
